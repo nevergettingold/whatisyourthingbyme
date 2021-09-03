@@ -8,6 +8,7 @@
 #article{
   padding-left:25px;
 }
+
 body{
   margin:0;
 }
@@ -25,16 +26,28 @@ h1 {
 }
 h2 {
   margin-top: 70px;
-  font-size: 45px;
+  font-size: 40px;
   text-align: center;
 }
+.moreinfo{
+        background-color: #07CD5C;
+        border: none;
+        color: white;
+        padding: 8px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
 .bodytext1 {
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   margin-bottom: 70px;
 }
 .body2 {
-  font-size: 25px;  
+  font-size: 20px;
   background-color: #F5F5F5;
   text-align: center;
 }
