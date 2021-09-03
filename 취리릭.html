@@ -2,8 +2,8 @@
 <html lang="ko">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" href="favicon-32x32.png">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png">
     <title>
     취리릭
     </title>
@@ -22,11 +22,11 @@
     <h1>
     WHATISYOURTHING
     </h1>
-    <img src="bodyimage-1.jpeg" width=100%>
+    <img src="images/bodyimage-1.jpeg" width=100%>
     <h2>
     휘리릭 읽는 취향!
     </h2>
-    <div class="bodytext1">
+    <div class="body1">
     시즈널리티 팍팍 담은 <br>
     MZ 취향 뉴스레터
     </div>
@@ -42,13 +42,39 @@
       매주 목요일 가득 담아 보내드릴게요.
       </p>
 
-      자세한 뉴스레터 소개는 아래 노션 페이지 링크를 참고해주세요!<br>
+      자세한 뉴스레터 소개는 아래 노션 페이지 링크를 참고해주세요!
 
-      👉 <button class="moreinfo" onclick="window.open('https://bit.ly/3yAQtUw','_blank')"> 취리릭 알아보기
-      </button>
-      <br>
-      👉 <button class="moreinfo" onclick="window.open('https://page.stibee.com/archives/107282','_blank')">지난 뉴스레터 보러 가기
-      </button>
+      <div class="buttons">
+        <button class="moreinfo" onclick="window.open('https://bit.ly/3yAQtUw','_blank')">👉  취리릭 더 알아보기
+        </button>
+        <br>
+        <button class="moreinfo" onclick="window.open('https://page.stibee.com/archives/107282','_blank')">👉 지난 뉴스레터 보러 가기
+        </button>
+      </div>
+
+    <form class="subscribe">
+      <div class="textfield undefined">
+       <label for="email">e-mail: </label>
+       <input type="text" name="email" class="textfield-input" placeholder="이메일 주소" value="">
+        <br>
+        <!--
+          <div pseudo="placeholder">이메일 주소</div>
+          <div contenteditable="plaintext-only"></div>
+          !-->
+        </input>
+      <div class="textfield undefined ">
+        <label for="email">이름: </label>
+        <input type="text" name="name" class="textfield-input" placeholder="이름" value="">
+        <br>
+        </input>
+      </div>
+      <div class="textfield undefined">
+        <label for="email">나이: </label>
+        <input type="text" name="age" class="textfield-input" placeholder="나이" value="">
+        <br>
+        </input>
+
+
     </div>
 
   </body>
